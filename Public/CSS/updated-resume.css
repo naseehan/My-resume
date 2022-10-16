@@ -1,0 +1,85 @@
+.navbar-items{
+    background-color: #7FBCD2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 22;
+    background-image: url("../images/louis-reed-a-xbE4Tye5c-unsplash.jpg");
+}
+.navbar-toggler{
+    background-color: #7da9bb;
+}
+.brand-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.brand-name:hover{
+    color: white;
+}
+.home-items{
+    background-color: #5d74;
+    margin-top: 86px;
+    background-image: url("../Images/building.jpg");
+    
+}
+.about-me {
+    text-align: center;
+    padding: 10.2rem 0;
+    color: #fff;
+}
+.icons{
+    padding-top: 1rem;
+    margin: 0 6px;
+    color: black;
+}
+.profile-pic-div{
+    text-align: center;
+    padding: 1.875rem 0;
+}
+.profile-pic{
+    border-radius: 100%;
+    transition: opacity 1s;
+}
+.profile-pic:hover{
+    opacity: 0.5;
+}
+.body-heading{
+    text-align: center;
+    padding: 7% 15% 0;
+}
+.project-images{
+    text-align: center;
+    padding: 7% 10%;
+}
+.project-1{
+    text-align: left;
+}
+footer{
+    background-color: #256D85;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 11px;
+}
+.footer-links:hover{
+    color: white;
+}
+.copyright{
+    margin: 0;
+    color: white;
+}
+
+@media(max-width: 767.34px){
+    .about-me {
+        text-align: center;
+        padding: 4.2rem 0;
+    }
+}
