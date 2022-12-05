@@ -1,0 +1,26 @@
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    border: dotted;
+    width: 3.125rem;
+}
+.about-body{
+    display: flex;
+    text-align: center;
+    padding-left: 495px;
+    width: 547px;
+    font-family: 'Montserrat', sans-serif
+}
+.dark-mode{
+    display: flex;
+    justify-content: end;
+}
+.for-H3{
+    color: white;
+}
+.for-body{
+    background-color: black;
+}
