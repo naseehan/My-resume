@@ -10,8 +10,6 @@
 .about-body{
     display: flex;
     text-align: center;
-    padding-left: 495px;
-    width: 547px;
     font-family: 'Montserrat', sans-serif
 }
 .dark-mode{
